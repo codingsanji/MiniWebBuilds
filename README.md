@@ -17,11 +17,6 @@ The goal of this repo is simple:
 ## 🗂️ Structure
 
 This repo is organized by **project type or idea**. For example:
-
-- `Cutesy/` → small cute pages  
-- `Games/` → mini browser-based games  
-- `Tools/` → tiny web utilities or interactive scripts  
-
 Each folder contains a standalone web page or project — just run `index.html`.
 
 ---
