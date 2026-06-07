@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!!</title>
+  <link rel="icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+  
+<script>
+  // Device detection script
+  window.onload = function () {
+    const userAgent = navigator.userAgent.toLowerCase();
+
+    const isMobile = /mobile|iphone|ipod|android(?!.*tablet)/i.test(userAgent);
+
+    if (isMobile) {
+      alert("This website is best viewed on a laptop or tablet. Please switch devices to access this content.");
+      document.body.innerHTML = '';
+    }
+  };
+</script>
+
+  
+</head>
+<body>
+  <div class="background">
+    <div class="wrapper" id="wrapper">
+      <div class="lid one"></div>
+      <div class="lid two"></div>
+      <div class="envelope"></div>
+      <div class="letter" id="letter">
+        <button class="close-btn hidden" id="close-btn">X</button>
+        <i class="fas fa-heart heart" id="heart"></i>
+        <p class="note hidden" id="note">
+          Dear Lasu,
+          <br><br>
+          While thinking of how to wish you, I realised how quickly time has passed and how much you’ve grown. It feels like yesterday you came out of that room with your tiny hands in your mouth… and just yesterday we cuddled on the swing in the old house watching Frozen and singing Let It Go. How are you already turning 12!?
+          <br><br>
+          Challo, I guess it’s okay. No matter where you are and what phase of life you're in, akka will always be here for you… just a call away or in the next room. I’m so proud of you for all that you have been and are, and I hope you continue to grow holistically. Dad, mom, and I are right behind you, always.
+          <br><br>
+          Have an amazing year ahead and happy birthday lil monkeeeyyyyy!!
+          <br><br>
+          With all my love,
+          <br>
+          Your papaya 🤪
+        </p>
+        
+      </div>
+    </div>
+    <div class="open-letter-container">
+      <button class="open-letter-btn" id="open-letter-btn">Open Letter</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
